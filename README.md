@@ -37,10 +37,10 @@ We can combine scenario map and route map into one map.
 {
 "A":{
 style: {weight: 1.5,
-		opacity:0,
-		fillOpacity:0,
-		color: #696969,
-		},
+	opacity:0,
+	fillOpacity:0,
+	color: #696969,
+	},
 }
 ```
 
@@ -54,10 +54,10 @@ style: {weight: 1.5,
 "A":{
 style: {weight: 1.5,
         stroke: false,
-		opacity:0,
-		fillOpacity:0,
-		color: #696969,
-		},
+	opacity:0,
+	fillOpacity:0,
+	color: #696969,
+	},
 }
 ```
 
@@ -71,11 +71,11 @@ style: {weight: 1.5,
   "B": {name: "Mass Ave", 
         style: {weight: 1.5,
                 stroke: false,
-		        opacity:0,
-		        fillOpacity:0,
-		        color: #696969,
-		        },
+		opacity:0,
+		fillOpacity:0,
+		color: #696969,
 		},
+	},
 };
 ```
 
@@ -88,10 +88,10 @@ style: {weight: 1.5,
 {
 "B":{
 style: {weight: 1.5,
-		opacity:0,
-		fillOpacity:0,
-		color: #696969,
-		},
+	opacity:0,
+	fillOpacity:0,
+	color: #696969,
+	},
 }
 ```
 
