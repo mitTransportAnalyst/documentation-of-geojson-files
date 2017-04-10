@@ -6,19 +6,21 @@ This documentation is going to demonstrate what the geojson files need for CoAXs
 As the picture above, Geojson files are used to show the points, lines, polygons on the maps. We have five optional features which can show on the CoAXs map area. **All these geojson files are optional!**
 
 In scenario map:
-- (1) lines: (type: line) City basic transit network. It is to give the user a basic sense of location. You can use the main subway or bus line
-- (2) stations: (type: point) The main stations on the (1) lines.  
+- (1) **lines**: (type: line) City basic transit network. It is to give the user a basic sense of location. You can use the main subway or bus line
+- (2) **stations**: (type: point) The main stations on the (1) lines.  
 
 In route map:
-- (3) trunks: (type: line) The segment of the routes which we mainly focus on and are going to improve. 
-- (4) routes: (type: line) The transit routes which pass the (3) trunks.
-- (5) stops: (type: point) The stops which on the (4) routes.
+- (3) **trunks**: (type: line) The segment of the routes which we mainly focus on and are going to improve. 
+- (4) **routes**: (type: line) The transit routes which pass the (3) trunks.
+- (5) **stops**: (type: point) The stops which on the (4) routes.
 
 We can combine scenario map and route map into one map. 
 
 ### Requirement for each files
-- (1) lines:
+- **(1) lines**:
+
 -- geojson for lines. Each line has a unique id.
+
 -- the json file which include the style for each line id. For example, "A" is the line id.
 ```javascript
 {
@@ -31,8 +33,10 @@ style: {weight: 1.5,
 }
 ```
 
-- (2) stations:
+- **(2) stations**:
+
 -- geojson for stations. The stations on one line has a unique id.
+
 -- the json file which include the style for each line id. For example, "A" is the line id.
 ```javascript
 {
@@ -46,8 +50,10 @@ style: {weight: 1.5,
 }
 ```
 
-- (3) trunks:
+- **(3) trunks**:
+
 -- geojson for trunks. Each trunck has a unique id.
+
 -- the json file which include the style AND the trunck name for each trunk id. For example, "B" is the trunk id.
 ```javascript
 {
@@ -62,8 +68,10 @@ style: {weight: 1.5,
 };
 ```
 
-- (4) routes:
+- **(4) routes**:
+
 -- geojson for route. Since all the routes which pass one trunk should has same style. So each route should have the trunk id which it passes.
+
 -- the json file which include the style for each trunk id. For example, "B" is the trunk id.
 ```javascript
 {
@@ -76,8 +84,10 @@ style: {weight: 1.5,
 }
 ```
 
-- (5) stops:
+- **(5) stops**:
+
 -- geojson for rostopsute. Since all the stops which are on one trunk should has same style. So each stop should have the trunk id which it belongs to.
+
 -- the json file which include the style for each trunk id. For example, "B" is the trunk id.
 ```javascript
 {
