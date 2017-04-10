@@ -30,7 +30,7 @@ We can combine scenario map and route map into one map.
 ### Requirement for each files
 - **(1) lines**:
 
--- geojson for lines. Each line has a unique id.
+-- [Geojson for lines](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/lines.geojson). Each line has a unique id.
 
 -- the json file which include the style for each line id. For example, "A" is the line id.
 ```javascript
@@ -46,7 +46,7 @@ style: {weight: 1.5,
 
 - **(2) stations**:
 
--- geojson for stations. The stations on one line has a unique id.
+-- [Geojson for stations](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/stations.geojson). The stations on one line has a unique id.
 
 -- the json file which include the style for each line id. For example, "A" is the line id.
 ```javascript
@@ -63,7 +63,7 @@ style: {weight: 1.5,
 
 - **(3) trunks**:
 
--- geojson for trunks. Each trunck has a unique id.
+-- [Geojson for trunks](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/trunks.geojson). Each trunck has a unique id.
 
 -- the json file which include the style AND the trunck name for each trunk id. For example, "B" is the trunk id.
 ```javascript
@@ -81,7 +81,7 @@ style: {weight: 1.5,
 
 - **(4) routes**:
 
--- geojson for route. Since all the routes which pass one trunk should has same style. So each route should have the trunk id which it passes.
+-- [Geojson for route](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/routes.geojson). Since all the routes which pass one trunk should has same style. So each route should have the trunk id which it passes.
 
 -- the json file which include the style for each trunk id. For example, "B" is the trunk id.
 ```javascript
@@ -97,7 +97,7 @@ style: {weight: 1.5,
 
 - **(5) stops**:
 
--- geojson for rostopsute. Since all the stops which are on one trunk should has same style. So each stop should have the trunk id which it belongs to.
+-- [Geojson for stops](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/stops.geojson). Since all the stops which are on one trunk should has same style. So each stop should have the trunk id which it belongs to.
 
 -- the json file which include the style for each trunk id. For example, "B" is the trunk id.
 ```javascript
