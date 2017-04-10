@@ -3,6 +3,11 @@ This documentation is going to demonstrate what the geojson files need for CoAXs
 
 ### What's the geojson files
 
+![alt text](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/routemap.png "route map")
+![alt text](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/scenariomap.png "scenario map")
+
+
+
 As the picture above, Geojson files are used to show the points, lines, polygons on the maps. We have five optional features which can show on the CoAXs map area. **All these geojson files are optional!**
 
 In scenario map:
