@@ -14,7 +14,9 @@ Route map
 
 
 
-As the picture above, Geojson files are used to show the points, lines, polygons on the maps. We have five optional features which can show on the CoAXs map area. **All these geojson files are optional!**
+As the picture above, Geojson files are used to show the points, lines, polygons on the maps. We have five optional features which can show on the CoAXs map area. 
+
+**All these geojson files are optional!**
 
 In scenario map:
 - (1) **lines**: (type: line) City basic transit network. It is to give the user a basic sense of location. You can use the main subway or bus line
@@ -25,7 +27,7 @@ In route map:
 - (4) **routes**: (type: line) The transit routes which pass the (3) trunks.
 - (5) **stops**: (type: point) The stops which on the (4) routes.
 
-We can combine scenario map and route map into one map. 
+**We can combine scenario map and route map into one map. **
 
 ### Requirement for each files
 - **(1) lines**:
