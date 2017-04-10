@@ -15,7 +15,7 @@ In scenario map:
 - (2) **stations**: (type: point) The main stations on the (1) lines.  
 
 In route map:
-- (3) **trunks**: (type: line) The segment of the routes which we mainly focus on and are going to improve. 
+- (3) **trunks**: (type: line) The segment of the routes which we mainly focus on and are going to improve.  
 - (4) **routes**: (type: line) The transit routes which pass the (3) trunks.
 - (5) **stops**: (type: point) The stops which on the (4) routes.
 
