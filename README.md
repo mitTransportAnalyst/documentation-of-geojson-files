@@ -3,8 +3,14 @@ This documentation is going to demonstrate what the geojson files need for CoAXs
 
 ### What's the geojson files
 
-![alt text](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/routemap.png "route map")
+Scenario map
+
 ![alt text](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/scenariomap.png "scenario map")
+
+Route map
+
+![alt text](https://github.com/mitTransportAnalyst/documentation-of-geojson-files/blob/master/routemap.png "route map")
+
 
 
 
